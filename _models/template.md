@@ -251,7 +251,7 @@ generated on the data from the TACE + Placebo arm from the TACE 2 trials.
   </div>
   <!-- End Table -->
   <div>
-    <h3> Model Preduction</h3>
+    <h3> Model Prediction</h3>
     See how this model can be used to predict survival!
     <ul class="actions">
       <li><a href="#" class="button special">Rshiny</a></li>
