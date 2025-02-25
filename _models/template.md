@@ -78,50 +78,71 @@ generated on the data from the TACE + Placebo arm from the TACE 2 trials.
 
   <!-- Table -->
   
-  <h4>Example Table of covariate summaries</h4>
+  <h4> Table of covariate summaries</h4>
   <div class="table-wrapper">
   	<table>
-  		<thead>
-  			<tr>
-  				<th>Name</th>
-  				<th>Description</th>
-  				<th>Price</th>
-  			</tr>
-  		</thead>
-  		<tbody>
-  			<tr>
-  				<td>Item1</td>
-  				<td>Ante turpis integer aliquet porttitor.</td>
-  				<td>29.99</td>
-  			</tr>
-  			<tr>
-  				<td>Item2</td>
-  				<td>Vis ac commodo adipiscing arcu aliquet.</td>
-  				<td>19.99</td>
-  			</tr>
-  			<tr>
-  				<td>Item3</td>
-  				<td> Morbi faucibus arcu accumsan lorem.</td>
-  				<td>29.99</td>
-  			</tr>
-  			<tr>
-  				<td>Item4</td>
-  				<td>Vitae integer tempus condimentum.</td>
-  				<td>19.99</td>
-  			</tr>
-  			<tr>
-  				<td>Item5</td>
-  				<td>Ante turpis integer aliquet porttitor.</td>
-  				<td>29.99</td>
-  			</tr>
-  		</tbody>
-  		<tfoot>
-  			<tr>
-  				<td colspan="2"></td>
-  				<td>100.00</td>
-  			</tr>
-  		</tfoot>
-  	</table>
+<caption>Covariates Summary</caption>
+ <thead>
+  <tr>
+   <th style="text-align:center;"> Variable </th>
+   <th style="text-align:center;"> Summary </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:center;"> Age </td>
+   <td style="text-align:center;"> 68.19 (7.69) </td>
+  </tr>
+  <tr>
+   <td style="text-align:center;"> AFP </td>
+   <td style="text-align:center;"> 4.22 (2.48) </td>
+  </tr>
+  <tr>
+   <td style="text-align:center;"> Hepatitis B </td>
+   <td style="text-align:center;"> 0.15 (0.36) </td>
+  </tr>
+  <tr>
+   <td style="text-align:center;"> Hepatitis C </td>
+   <td style="text-align:center;"> 0.25 (0.43) </td>
+  </tr>
+  <tr>
+   <td style="text-align:center;"> Bilirubin </td>
+   <td style="text-align:center;"> 18.8 (14.14) </td>
+  </tr>
+  <tr>
+   <td style="text-align:center;"> Albumin </td>
+   <td style="text-align:center;"> 38.89 (4.28) </td>
+  </tr>
+  <tr>
+   <td style="text-align:center;"> Lesion1 </td>
+   <td style="text-align:center;"> 5.7 (3.73) </td>
+  </tr>
+  <tr>
+   <td style="text-align:center;"> Lesion2 </td>
+   <td style="text-align:center;"> 3.26 (1.93) </td>
+  </tr>
+  <tr>
+   <td style="text-align:center;"> Gender </td>
+   <td style="text-align:center;"> Female : 6, Male : 75 </td>
+  </tr>
+  <tr>
+   <td style="text-align:center;"> Cirrhosis </td>
+   <td style="text-align:center;"> 0 : 4, 1 : 77 </td>
+  </tr>
+  <tr>
+   <td style="text-align:center;"> Focality </td>
+   <td style="text-align:center;"> Multifocal : 75, Unifocal : 6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:center;"> Vascular.invasion </td>
+   <td style="text-align:center;"> 0 : 81 </td>
+  </tr>
+  <tr>
+   <td style="text-align:center;"> Child.Pugh.grade </td>
+   <td style="text-align:center;"> A : 81 </td>
+  </tr>
+</tbody>
+</table>
   </div>
   
   <!-- End Table -->
