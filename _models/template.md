@@ -286,55 +286,72 @@ generated on the data from the TACE + Placebo arm from the TACE 2 trials.
 
 	<div class="6u 12u$(medium)">
 
-  <h4>A table to provide Validation Details</h4>
+  <h4>Discrimination Details</h4>
   
   <div class="table-wrapper">
   	<table>
-   <thead>
-    <tr>
-     <th style="text-align:left;">   </th>
-     <th style="text-align:right;"> est </th>
-     <th style="text-align:right;"> se </th>
-    </tr>
-   </thead>
-  <tbody>
-    <tr>
-     <td style="text-align:left;"> gamma0 </td>
-     <td style="text-align:right;"> -3.148 </td>
-     <td style="text-align:right;"> 1.269 </td>
-    </tr>
-    <tr>
-     <td style="text-align:left;"> gamma1 </td>
-     <td style="text-align:right;"> 1.778 </td>
-     <td style="text-align:right;"> 0.395 </td>
-    </tr>
-    <tr>
-     <td style="text-align:left;"> gamma2 </td>
-     <td style="text-align:right;"> 0.031 </td>
-     <td style="text-align:right;"> 0.050 </td>
-    </tr>
-    <tr>
-     <td style="text-align:left;"> AFP </td>
-     <td style="text-align:right;"> 0.174 </td>
-     <td style="text-align:right;"> 0.043 </td>
-    </tr>
-    <tr>
-     <td style="text-align:left;"> Cirrhosis1 </td>
-     <td style="text-align:right;"> -0.389 </td>
-     <td style="text-align:right;"> 0.313 </td>
-    </tr>
-    <tr>
-     <td style="text-align:left;"> Albumin </td>
-     <td style="text-align:right;"> -0.070 </td>
-     <td style="text-align:right;"> 0.025 </td>
-    </tr>
-    <tr>
-     <td style="text-align:left;"> Lesion1 </td>
-     <td style="text-align:right;"> 0.025 </td>
-     <td style="text-align:right;"> 0.028 </td>
-    </tr>
-  </tbody>
-  </table>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Metric </th>
+   <th style="text-align:right;"> Value </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> C-index </td>
+   <td style="text-align:right;"> 0.2895377 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Calibration Slope </td>
+   <td style="text-align:right;"> 0.9827559 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Calibration Slope SE </td>
+   <td style="text-align:right;"> 0.2402236 </td>
+  </tr>
+</tbody>
+</table>
+
+<h4>A table to provide Validation Details</h4>
+  
+  <div class="table-wrapper">
+    <table>
+        <thead>
+         <tr>
+          <th style="text-align:left;"> Risk Group </th>
+          <th style="text-align:right;"> Coefficient </th>
+          <th style="text-align:right;"> SE (Coef) </th>
+          <th style="text-align:right;"> Z-value </th>
+          <th style="text-align:right;"> P-value </th>
+         </tr>
+        </thead>
+       <tbody>
+         <tr>
+          <td style="text-align:left;"> risk_groupMedium-Low </td>
+          <td style="text-align:right;"> 0.3462284 </td>
+          <td style="text-align:right;"> 0.4426802 </td>
+          <td style="text-align:right;"> 0.7821186 </td>
+          <td style="text-align:right;"> 0.4341449 </td>
+         </tr>
+         <tr>
+          <td style="text-align:left;"> risk_groupMedium-High </td>
+          <td style="text-align:right;"> 1.1493102 </td>
+          <td style="text-align:right;"> 0.4519407 </td>
+          <td style="text-align:right;"> 2.5430551 </td>
+          <td style="text-align:right;"> 0.0109888 </td>
+         </tr>
+         <tr>
+          <td style="text-align:left;"> risk_groupHigh </td>
+          <td style="text-align:right;"> 1.3859891 </td>
+          <td style="text-align:right;"> 0.4313030 </td>
+          <td style="text-align:right;"> 3.2134929 </td>
+          <td style="text-align:right;"> 0.0013113 </td>
+         </tr>
+       </tbody>
+       </table>
+
+      
+
   </div>
 
   </div>
