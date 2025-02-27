@@ -362,8 +362,11 @@ generated on the data from the TACE + Placebo arm from the TACE 2 trials.
 
   Some text to describe the validation output
 
-  <span class="image fit"><img src="{% link assets/images/TACE_km1.png %}" alt="" /></span>
-
+<a href="{% link assets/images/calibration_plot.png %}" target="_blank">
+  <span class="image fit">
+    <img src="{% link assets/images/calibration_plot.png %}" alt="Calibration Plot" />
+  </span>
+</a>
 
    </div>
 
