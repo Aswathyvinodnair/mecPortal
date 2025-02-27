@@ -286,7 +286,7 @@ generated on the data from the TACE + Placebo arm from the TACE 2 trials.
 
 	<div class="6u 12u$(medium)">
 
-  <h4>Discrimination Details</h4>
+  <h4>Calibration Details</h4>
   
   <div class="table-wrapper">
   	<table>
@@ -312,43 +312,43 @@ generated on the data from the TACE + Placebo arm from the TACE 2 trials.
 </tbody>
 </table>
 
-<h4>A table to provide Validation Details</h4>
+<h4>Discrimination Details</h4>
   
   <div class="table-wrapper">
     <table>
-        <thead>
-         <tr>
-          <th style="text-align:left;"> Risk Group </th>
-          <th style="text-align:right;"> Coefficient </th>
-          <th style="text-align:right;"> SE (Coef) </th>
-          <th style="text-align:right;"> Z-value </th>
-          <th style="text-align:right;"> P-value </th>
-         </tr>
-        </thead>
-       <tbody>
-         <tr>
-          <td style="text-align:left;"> risk_groupMedium-Low </td>
-          <td style="text-align:right;"> 0.3462284 </td>
-          <td style="text-align:right;"> 0.4426802 </td>
-          <td style="text-align:right;"> 0.7821186 </td>
-          <td style="text-align:right;"> 0.4341449 </td>
-         </tr>
-         <tr>
-          <td style="text-align:left;"> risk_groupMedium-High </td>
-          <td style="text-align:right;"> 1.1493102 </td>
-          <td style="text-align:right;"> 0.4519407 </td>
-          <td style="text-align:right;"> 2.5430551 </td>
-          <td style="text-align:right;"> 0.0109888 </td>
-         </tr>
-         <tr>
-          <td style="text-align:left;"> risk_groupHigh </td>
-          <td style="text-align:right;"> 1.3859891 </td>
-          <td style="text-align:right;"> 0.4313030 </td>
-          <td style="text-align:right;"> 3.2134929 </td>
-          <td style="text-align:right;"> 0.0013113 </td>
-         </tr>
-       </tbody>
-       </table>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Risk Group </th>
+   <th style="text-align:right;"> Coefficient </th>
+   <th style="text-align:right;"> SE (Coef) </th>
+   <th style="text-align:right;"> Z-value </th>
+   <th style="text-align:right;"> P-value </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Medium-Low </td>
+   <td style="text-align:right;"> 0.3462284 </td>
+   <td style="text-align:right;"> 0.4426802 </td>
+   <td style="text-align:right;"> 0.7821186 </td>
+   <td style="text-align:right;"> 0.4341449 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Medium-High </td>
+   <td style="text-align:right;"> 1.1493102 </td>
+   <td style="text-align:right;"> 0.4519407 </td>
+   <td style="text-align:right;"> 2.5430551 </td>
+   <td style="text-align:right;"> 0.0109888 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> High </td>
+   <td style="text-align:right;"> 1.3859891 </td>
+   <td style="text-align:right;"> 0.4313030 </td>
+   <td style="text-align:right;"> 3.2134929 </td>
+   <td style="text-align:right;"> 0.0013113 </td>
+  </tr>
+</tbody>
+</table>
 
       
 
