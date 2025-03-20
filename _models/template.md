@@ -22,21 +22,21 @@ This model predicts the survival of patients with Hepatocellular Carcinoma (HCC)
 	<div class="4u 12u$(medium)">
 	  <div class="box">
   		<h3> Patients </h3>
-  		<p> Patients included in the study were aged 18 years or older, with a histological or non-invasive diagnosis of hepatocellular carcinoma (HCC) according to AASLD criteria, and had at least one measurable lesion per RECIST v1.1. All patients had unresectable, liver-confined disease, Child-Pugh A liver function, and an ECOG performance status of 1 or less. Additional eligibility criteria included hemoglobin ≥9 g/L, neutrophil count ≥1.5 × 10⁹ cells/L, platelet count ≥60 × 10⁹ platelets/L, bilirubin ≤50 µmol/L, AST/ALT ≤5 times the upper limit of normal (ULN), ALP &lt; 4 times ULN, creatinine ≤1.5 times ULN, INR ≤1.5 times ULN, and left ventricular ejection fraction ≥45%. Patients were excluded if they had extrahepatic metastasis, prior embolisation, systemic therapy, or radiotherapy for HCC, contraindications to hepatic embolisation, prior investigational therapy, major surgery or bleeding history within 4 weeks, hepatic encephalopathy, hepatic artery or main portal vein occlusion, myocardial infarction within 6 months, or prolonged QT/QTc >450 ms.
+  		<p style="text-align: justify;"> Patients included in the study were aged 18 years or older, with a histological or non-invasive diagnosis of hepatocellular carcinoma (HCC) according to AASLD criteria, and had at least one measurable lesion per RECIST v1.1. All patients had unresectable, liver-confined disease, Child-Pugh A liver function, and an ECOG performance status of 1 or less. Additional eligibility criteria included hemoglobin ≥9 g/L, neutrophil count ≥1.5 × 10⁹ cells/L, platelet count ≥60 × 10⁹ platelets/L, bilirubin ≤50 µmol/L, AST/ALT ≤5 times the upper limit of normal (ULN), ALP &lt; 4 times ULN, creatinine ≤1.5 times ULN, INR ≤1.5 times ULN, and left ventricular ejection fraction ≥45%. Patients were excluded if they had extrahepatic metastasis, prior embolisation, systemic therapy, or radiotherapy for HCC, contraindications to hepatic embolisation, prior investigational therapy, major surgery or bleeding history within 4 weeks, hepatic encephalopathy, hepatic artery or main portal vein occlusion, myocardial infarction within 6 months, or prolonged QT/QTc >450 ms.
        </p>
   	</div>	
 	</div>
 	<div class="4u 12u$(medium)">
 		  <div class="box">
 		<h3> Intervention </h3>
-		<p> Patients were randomized 1:1 using a computerized minimization algorithm to receive either continuous oral sorafenib (400 mg twice daily) or matching placebo, combined with TACE using drug-eluting beads (DEB-TACE). TACE was administered via the hepatic artery 2–5 weeks after randomization and continued based on radiological response and patient tolerance. Stratification factors included randomizing center and serum α-fetoprotein concentration (&lt;400 ng/mL or &ge;400 ng/mL). Treatment allocation was blinded to patients and clinicians, with only the trial coordinator unmasked until disease progression. 
+		<p style="text-align: justify;"> Patients were randomized 1:1 using a computerized minimization algorithm to receive either continuous oral sorafenib (400 mg twice daily) or matching placebo, combined with TACE using drug-eluting beads (DEB-TACE). TACE was administered via the hepatic artery 2–5 weeks after randomization and continued based on radiological response and patient tolerance. Stratification factors included randomizing center and serum α-fetoprotein concentration (&lt;400 ng/mL or &ge;400 ng/mL). Treatment allocation was blinded to patients and clinicians, with only the trial coordinator unmasked until disease progression. 
      </p>
 		  	</div>	
 	</div>
 	<div class="4u$ 12u$(medium)">
 		  <div class="box">
 		<h3> Outcome </h3>
-		<p> Overall Survival measured from the point of randomisation until death by any cause. Patients still alive at the termination of the study are censored at the date last known to be alive. </p>
+		<p style="text-align: justify;"> Overall Survival measured from the point of randomisation until death by any cause. Patients still alive at the termination of the study are censored at the date last known to be alive. </p>
 		  	</div>	
 	</div>
 </div>
@@ -63,80 +63,108 @@ This model predicts the survival of patients with Hepatocellular Carcinoma (HCC)
 		all the covariates that wew included in the dataset </p>
 		
 		<ul>
-			<li> Covariate 1</li>
-			  <p> Details of how it is maesured (eg. units) </p>
-			<li> Covariate 2</li>
-			  <p> Details of how it is maesured (eg. units) </p>
-			<li> Covariate 3</li>
-			  <p> Details of how it is maesured (eg. units) </p>
-			<li> Covariate 4</li>
-			  <p> Details of how it is maesured (eg. units) </p>
+			<li> Age </li>
+			  <p> Age is recorded in years as a continuous variable </p>
+        <li> Gender </li>
+			  <p> Gender is categorized as male and female. </p>
+			<li> Alpha-fetoprotein (AFP) </li>
+			  <p> AFP is a protein produced by the liver, measured in kilo units per liter (kU/L) </p>
+			<li> Hepatitis B </li>
+			  <p> Presented as a categorical variable indicating the presence or absence of Hepatitis B infection </p>
+			<li> Hepatitis C</li>
+			  <p> Presented as a categorical variable indicating the presence or absence of Hepatitis C infection </p>
+        <li> Bilirubin </li>
+			  <p> Bilirubin levels are recorded in micromoles per liter (µmol/L), representing liver function </p>
+        <li> Albumin </li>
+			  <p> Albumin is a protein synthesized by the liver, measured in grams per liter (g/L) </p>
+        <li> Lesion 1</li>
+			  <p> The size of lesion 1, recorded in centimeters (cm) </p>
+        <li> Lesion 2</li>
+			  <p> The size of lesion 2, recorded in centimeters (cm) </p>
+        <li> Cirrhosis </li>
+			  <p> Presented as a categorical variable indicating the presence or absence of liver cirrhosis </p>
+        <li> Focality </li>
+			  <p> Focality describes the distribution of tumors within the liver. 'Unifocal' denotes a single tumor, while 'Multifocal' indicates the presence of multiple tumors </p>
+        
 		</ul>
 
   <!-- Table -->
   
   <h4> Table of covariate summaries</h4>
+Data are n (%) for categories, and median (IQR) for continuous data
+<p> </p>
   <div class="table-wrapper">
   	<table>
-<caption>Covariates Summary</caption>
  <thead>
   <tr>
-   <th style="text-align:center;"> Variable </th>
-   <th style="text-align:center;"> Summary </th>
+   <th style="text-align:left;"> Variable </th>
+   <th style="text-align:left;"> Summary </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:center;"> Age </td>
-   <td style="text-align:center;"> 68.19 (7.69) </td>
+   <td style="text-align:left;"> Age </td>
+   <td style="text-align:left;"> 68 (63, 74) </td>
   </tr>
   <tr>
-   <td style="text-align:center;"> AFP </td>
-   <td style="text-align:center;"> 4.22 (2.48) </td>
+   <td style="text-align:left;"> AFP </td>
+   <td style="text-align:left;"> 3.66 (1.95, 6.18) </td>
   </tr>
   <tr>
-   <td style="text-align:center;"> Hepatitis B </td>
-   <td style="text-align:center;"> 0.15 (0.36) </td>
+   <td style="text-align:left;"> Bilirubin </td>
+   <td style="text-align:left;"> 17 (11, 23) </td>
   </tr>
   <tr>
-   <td style="text-align:center;"> Hepatitis C </td>
-   <td style="text-align:center;"> 0.25 (0.43) </td>
+   <td style="text-align:left;"> Albumin </td>
+   <td style="text-align:left;"> 39 (36, 42) </td>
   </tr>
   <tr>
-   <td style="text-align:center;"> Bilirubin </td>
-   <td style="text-align:center;"> 18.8 (14.14) </td>
+   <td style="text-align:left;"> Lesion1 </td>
+   <td style="text-align:left;"> 4.5 (3.3, 6.5) </td>
   </tr>
   <tr>
-   <td style="text-align:center;"> Albumin </td>
-   <td style="text-align:center;"> 38.89 (4.28) </td>
+   <td style="text-align:left;"> Lesion2 </td>
+   <td style="text-align:left;"> 2.7 (1.9, 3.9) </td>
   </tr>
   <tr>
-   <td style="text-align:center;"> Lesion1 </td>
-   <td style="text-align:center;"> 5.7 (3.73) </td>
+   <td style="text-align:left;"> Gender - Female </td>
+   <td style="text-align:left;"> 6 (7.4%) </td>
   </tr>
   <tr>
-   <td style="text-align:center;"> Lesion2 </td>
-   <td style="text-align:center;"> 3.26 (1.93) </td>
+   <td style="text-align:left;"> Gender - Male </td>
+   <td style="text-align:left;"> 75 (92.6%) </td>
   </tr>
   <tr>
-   <td style="text-align:center;"> Gender </td>
-   <td style="text-align:center;"> Female : 6, Male : 75 </td>
+   <td style="text-align:left;"> Cirrhosis - 0 </td>
+   <td style="text-align:left;"> 4 (4.9%) </td>
   </tr>
   <tr>
-   <td style="text-align:center;"> Cirrhosis </td>
-   <td style="text-align:center;"> 0 : 4, 1 : 77 </td>
+   <td style="text-align:left;"> Cirrhosis - 1 </td>
+   <td style="text-align:left;"> 77 (95.1%) </td>
   </tr>
   <tr>
-   <td style="text-align:center;"> Focality </td>
-   <td style="text-align:center;"> Multifocal : 75, Unifocal : 6 </td>
+   <td style="text-align:left;"> Hepatitis B - 0 </td>
+   <td style="text-align:left;"> 69 (85.2%) </td>
   </tr>
   <tr>
-   <td style="text-align:center;"> Vascular.invasion </td>
-   <td style="text-align:center;"> 0 : 81 </td>
+   <td style="text-align:left;"> Hepatitis B - 1 </td>
+   <td style="text-align:left;"> 12 (14.8%) </td>
   </tr>
   <tr>
-   <td style="text-align:center;"> Child.Pugh.grade </td>
-   <td style="text-align:center;"> A : 81 </td>
+   <td style="text-align:left;"> Hepatitis C - 0 </td>
+   <td style="text-align:left;"> 61 (75.3%) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Hepatitis C - 1 </td>
+   <td style="text-align:left;"> 20 (24.7%) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Focality - Multifocal </td>
+   <td style="text-align:left;"> 75 (92.6%) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Focality - Unifocal </td>
+   <td style="text-align:left;"> 6 (7.4%) </td>
   </tr>
 </tbody>
 </table>
@@ -173,8 +201,7 @@ This model predicts the survival of patients with Hepatocellular Carcinoma (HCC)
 	<div class="6u 12u$(medium)">
     <h3> Model Construction </h3>
     <div class="box">
-    	<p> Include details here about the process of fitting the model.  E.G. 
-    	backwards stepwise procedure based on model AIC </p>
+    	<p> A Cox proportional hazards model was constructed to evaluate overall survival using a stepwise backward selection approach.The process began with a comprehensive model including multiple clinically relevant covariates. Backward selection was systematically removing the least significant variables to optimize model fit, guided by the Akaike Information Criterion (AIC). This iterative refinement continued until the most parsimonious model was achieved — retaining only covariates that significantly contributed to the model. The final model was then refined using the flexsurvspline function to provide a flexible, data-driven estimation of the survival function, incorporating the remaining key covariates associated with overall survival in patients with hepatocellular carcinoma.   </p>
     </div>
     
     <!-- Image -->
@@ -308,6 +335,7 @@ This model predicts the survival of patients with Hepatocellular Carcinoma (HCC)
   </tr>
 </tbody>
 </table>
+</div>
 
 <h4>Discrimination Details</h4>
   
@@ -355,19 +383,21 @@ This model predicts the survival of patients with Hepatocellular Carcinoma (HCC)
   
   	<div class="6u 12u$(medium)">
   	  <!-- Image -->
-  <h3>Validation</h3>
+  <h3>Validation plots</h3>
 
   Some text to describe the validation output
 
   <span class="image fit"><img src="{% link assets/images/Calibration.png %}" alt="" /></span>
+  <span class="image fit"><img src="{% link assets/images/validation_plot.png %}" alt="" /></span>
 
 
    </div>
 
-   git push origin master
+ 
   </div>
 
 </div>
+
 <!------>
 <!------>
 
