@@ -16,30 +16,27 @@ description:  A template of the information to include
 
 <h2>Setting </h2>
 
-A quick description of the model setting is provided:  E.G. This model
-predicts the survival of patients with Hepatocellular Carcinoma (HCC) BCLC stage 
-B and treated with Trans Arterial Chemoembolisation (TACE).  The model has been 
-generated on the data from the TACE + Placebo arm from the TACE 2 trials.
+This model predicts the survival of patients with Hepatocellular Carcinoma (HCC) BCLC stage B, characterized by unresectable, liver-confined HCC, Child-Pugh A liver function, and ECOG performance status of 1 or less, who were treated with Transarterial Chemoembolisation (TACE). The model was developed using data from the TACE + Placebo arm of the TACE 2 trial.
 
 <div class="row">
 	<div class="4u 12u$(medium)">
 	  <div class="box">
   		<h3> Patients </h3>
-  		<p> Details on the Patients (e.g. inclusion/exclusion criteria from the 
-  		study) </p>
+  		<p> Patients included in the study were aged 18 years or older, with a histological or non-invasive diagnosis of hepatocellular carcinoma (HCC) according to AASLD criteria, and had at least one measurable lesion per RECIST v1.1. All patients had unresectable, liver-confined disease, Child-Pugh A liver function, and an ECOG performance status of 1 or less. Additional eligibility criteria included hemoglobin ≥9 g/L, neutrophil count ≥1.5 × 10⁹ cells/L, platelet count ≥60 × 10⁹ platelets/L, bilirubin ≤50 µmol/L, AST/ALT ≤5 times the upper limit of normal (ULN), ALP &lt; 4 times ULN, creatinine ≤1.5 times ULN, INR ≤1.5 times ULN, and left ventricular ejection fraction ≥45%. Patients were excluded if they had extrahepatic metastasis, prior embolisation, systemic therapy, or radiotherapy for HCC, contraindications to hepatic embolisation, prior investigational therapy, major surgery or bleeding history within 4 weeks, hepatic encephalopathy, hepatic artery or main portal vein occlusion, myocardial infarction within 6 months, or prolonged QT/QTc >450 ms.
+       </p>
   	</div>	
 	</div>
 	<div class="4u 12u$(medium)">
 		  <div class="box">
 		<h3> Intervention </h3>
-		<p> How was the intervention delivered? </p>
+		<p> Patients were randomized 1:1 using a computerized minimization algorithm to receive either continuous oral sorafenib (400 mg twice daily) or matching placebo, combined with TACE using drug-eluting beads (DEB-TACE). TACE was administered via the hepatic artery 2–5 weeks after randomization and continued based on radiological response and patient tolerance. Stratification factors included randomizing center and serum α-fetoprotein concentration (&lt;400 ng/mL or &ge;400 ng/mL). Treatment allocation was blinded to patients and clinicians, with only the trial coordinator unmasked until disease progression. 
+     </p>
 		  	</div>	
 	</div>
 	<div class="4u$ 12u$(medium)">
 		  <div class="box">
 		<h3> Outcome </h3>
-		<p> How is the Outcome defined?  E.G. Overall Survival measured as the time 
-		from randomisation until death by any cause </p>
+		<p> Overall Survival measured from the point of randomisation until death by any cause. Patients still alive at the termination of the study are censored at the date last known to be alive. </p>
 		  	</div>	
 	</div>
 </div>
@@ -367,7 +364,7 @@ generated on the data from the TACE + Placebo arm from the TACE 2 trials.
 
    </div>
 
-   
+   git push origin master
   </div>
 
 </div>
