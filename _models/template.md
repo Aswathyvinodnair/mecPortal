@@ -210,7 +210,9 @@ Data are n (%) for categories, and median (IQR) for continuous data
     <div>
       <h3>Model Fit</h3>
       Some text to describe what is provided
-      <span class="image fit"><img src="{% link assets/images/TACE_km1.png %}" alt="" /></span>
+    <!--span class="image fit"><img src="{% link assets/images/TACE_km1.png %}" alt="" /></span-->
+        <img src="{{ '/assets/images/TACE_km1.png' | relative_url }}" alt="Kaplan-Meier Plot" />
+
     </div>
   
   </div>
