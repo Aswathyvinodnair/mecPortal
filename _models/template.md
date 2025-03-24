@@ -419,7 +419,7 @@ github/richJJackson/pscLibrary/test_model
  <div class="box">
 <h1 id="valid"> References </h1>
 
-Details on the trial which provided the data for this model can be found at:
+Details on the trial which provided the data for this model can be found at Github:
 
 Meyer T, Fox R, Ma YT, Ross PJ, James MW, Sturgess R, Stubbs C, Stocken DD, Wall 
 L, Watkinson A, Hacking N. Sorafenib in combination with transarterial 
