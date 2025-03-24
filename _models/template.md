@@ -180,7 +180,9 @@ Data are n (%) for categories, and median (IQR) for continuous data
     <!-- Image -->
     <h3>Model covariates</h3>
     Details of the covariates used to generate the model are:
-    <span class="image fit"><img src="{% link assets/images/TACE_dataPlot.png %}" alt="" /></span>
+    <!--span class="image fit"><img src="{% link assets/images/TACE_dataPlot.png %}" alt="" /></span-->
+     <img src="{{ '/assets/images/TACE_dataPlot.png' | relative_url }}" alt="Survival Plot" />
+</span>
     </div>
      <!-- End Image -->
   </div>
