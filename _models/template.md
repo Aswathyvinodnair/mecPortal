@@ -388,7 +388,9 @@ Data are n (%) for categories, and median (IQR) for continuous data
   Some text to describe the validation output
 
   <span class="image fit"><img src="{% link assets/images/Calibration.png %}" alt="" /></span>
-  <span class="image fit"><img src="{% link assets/images/validation_plot.png %}" alt="" /></span>
+<span class="image fit">
+  <img src="{{ '/assets/images/validation_plot.png' | relative_url }}" alt="Validation Plot" />
+</span>
 
 
    </div>
