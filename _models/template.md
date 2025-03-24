@@ -90,12 +90,12 @@ This model predicts the survival of patients with Hepatocellular Carcinoma (HCC)
 
   <!-- Table -->
   
-  <h4> Table of covariate summaries</h4>
+  <h4> Baseline characteristics</h4>
 Data are n (%) for categories, and median (IQR) for continuous data
 <p> </p>
   <div class="table-wrapper">
   	<table>
- <thead>
+  <thead>
   <tr>
    <th style="text-align:left;"> Variable </th>
    <th style="text-align:left;"> Summary </th>
@@ -104,67 +104,83 @@ Data are n (%) for categories, and median (IQR) for continuous data
 <tbody>
   <tr>
    <td style="text-align:left;"> Age </td>
-   <td style="text-align:left;"> 68 (63, 74) </td>
+   <td style="text-align:left;"> 68.5 (63, 74.25) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> AFP </td>
-   <td style="text-align:left;"> 3.66 (1.95, 6.18) </td>
+   <td style="text-align:left;"> 3.14 (1.79, 5.6) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Bilirubin </td>
-   <td style="text-align:left;"> 17 (11, 23) </td>
+   <td style="text-align:left;"> 13 (10, 20) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Albumin </td>
-   <td style="text-align:left;"> 39 (36, 42) </td>
+   <td style="text-align:left;"> 39 (36, 43) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Lesion1 </td>
-   <td style="text-align:left;"> 4.5 (3.3, 6.5) </td>
+   <td style="text-align:left;"> 5.2 (3.35, 7.15) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Lesion2 </td>
-   <td style="text-align:left;"> 2.7 (1.9, 3.9) </td>
+   <td style="text-align:left;"> 2.5 (1.9, 3.7) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Gender - Female </td>
-   <td style="text-align:left;"> 6 (7.4%) </td>
+   <td style="text-align:left;"> 18 (11.5%) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Gender - Male </td>
-   <td style="text-align:left;"> 75 (92.6%) </td>
+   <td style="text-align:left;"> 138 (88.5%) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Cirrhosis - 0 </td>
-   <td style="text-align:left;"> 4 (4.9%) </td>
+   <td style="text-align:left;"> 33 (21.2%) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Cirrhosis - 1 </td>
-   <td style="text-align:left;"> 77 (95.1%) </td>
+   <td style="text-align:left;"> 122 (78.2%) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Cirrhosis - NA </td>
+   <td style="text-align:left;"> 1 (0.6%) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Hepatitis B - 0 </td>
-   <td style="text-align:left;"> 69 (85.2%) </td>
+   <td style="text-align:left;"> 118 (75.6%) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Hepatitis B - 1 </td>
-   <td style="text-align:left;"> 12 (14.8%) </td>
+   <td style="text-align:left;"> 15 (9.6%) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Hepatitis B - NA </td>
+   <td style="text-align:left;"> 23 (14.7%) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Hepatitis C - 0 </td>
-   <td style="text-align:left;"> 61 (75.3%) </td>
+   <td style="text-align:left;"> 106 (67.9%) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Hepatitis C - 1 </td>
-   <td style="text-align:left;"> 20 (24.7%) </td>
+   <td style="text-align:left;"> 27 (17.3%) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Hepatitis C - NA </td>
+   <td style="text-align:left;"> 23 (14.7%) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Focality - Multifocal </td>
-   <td style="text-align:left;"> 75 (92.6%) </td>
+   <td style="text-align:left;"> 113 (72.4%) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Focality - Unifocal </td>
-   <td style="text-align:left;"> 6 (7.4%) </td>
+   <td style="text-align:left;"> 39 (25%) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Focality - NA </td>
+   <td style="text-align:left;"> 4 (2.6%) </td>
   </tr>
 </tbody>
 </table>
