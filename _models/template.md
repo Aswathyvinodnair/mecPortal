@@ -29,7 +29,7 @@ This model predicts the survival of patients with Hepatocellular Carcinoma (HCC)
 	<div class="4u 12u$(medium)">
 		  <div class="box">
 		<h3> Intervention </h3>
-		<p style="text-align: justify;"> Patients were randomized 1:1 using a computerized minimization algorithm to receive either continuous oral sorafenib (400 mg twice daily) or matching placebo, combined with TACE using drug-eluting beads (DEB-TACE). TACE was administered via the hepatic artery 2–5 weeks after randomization and continued based on radiological response and patient tolerance. Stratification factors included randomizing center and serum α-fetoprotein concentration (&lt;400 ng/mL or &ge;400 ng/mL). Treatment allocation was blinded to patients and clinicians, with only the trial coordinator unmasked until disease progression. 
+		<p style="text-align: justify;"> Patients were received either continuous oral sorafenib (400 mg twice daily) or matching placebo, combined with TACE using drug-eluting beads (DEB-TACE). TACE was administered via the hepatic artery 2–5 weeks after randomization and continued based on radiological response and patient tolerance. 
      </p>
 		  	</div>	
 	</div>
@@ -135,40 +135,28 @@ Data are n (%) for categories, and median (IQR) for continuous data
    <td style="text-align:left;"> 138 (88.5%) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Cirrhosis - 0 </td>
+   <td style="text-align:left;"> Cirrhosis - No </td>
    <td style="text-align:left;"> 33 (21.2%) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Cirrhosis - 1 </td>
+   <td style="text-align:left;"> Cirrhosis - Yes </td>
    <td style="text-align:left;"> 122 (78.2%) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Cirrhosis - NA </td>
-   <td style="text-align:left;"> 1 (0.6%) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Hepatitis B - 0 </td>
+   <td style="text-align:left;"> Hepatitis B - No </td>
    <td style="text-align:left;"> 118 (75.6%) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Hepatitis B - 1 </td>
+   <td style="text-align:left;"> Hepatitis B - Yes </td>
    <td style="text-align:left;"> 15 (9.6%) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Hepatitis B - NA </td>
-   <td style="text-align:left;"> 23 (14.7%) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Hepatitis C - 0 </td>
+   <td style="text-align:left;"> Hepatitis C - No </td>
    <td style="text-align:left;"> 106 (67.9%) </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Hepatitis C - 1 </td>
+   <td style="text-align:left;"> Hepatitis C - Yes </td>
    <td style="text-align:left;"> 27 (17.3%) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Hepatitis C - NA </td>
-   <td style="text-align:left;"> 23 (14.7%) </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Focality - Multifocal </td>
@@ -178,11 +166,7 @@ Data are n (%) for categories, and median (IQR) for continuous data
    <td style="text-align:left;"> Focality - Unifocal </td>
    <td style="text-align:left;"> 39 (25%) </td>
   </tr>
-  <tr>
-   <td style="text-align:left;"> Focality - NA </td>
-   <td style="text-align:left;"> 4 (2.6%) </td>
-  </tr>
-</tbody>
+ </tbody>
 </table>
   </div>
   
